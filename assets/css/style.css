@@ -754,7 +754,6 @@ article.container::before{
   width: 100%;
   height: 100%;
   background-color: var(--background);
-  display: grid;
   place-items: center;
   z-index: 1;
   display: none;
@@ -778,6 +777,26 @@ article.container::before{
 /*-----------------------------------*\
   #ERROR SECTION
 \*-----------------------------------*/
+
+.error-content{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100svh; /*for mobile browser*/
+  background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 8;
+}
+
+.error-content .btn-primary{
+  margin-block-start: 20px;
+}
 
 
 
