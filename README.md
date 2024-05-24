@@ -3,6 +3,8 @@
 
 **Client:** HTML, CSS, JavaScript, API
 
+![alt text](/weather.png)
+
 ## Demo
 
 Insert gif or link to demo
