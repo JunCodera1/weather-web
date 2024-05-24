@@ -1032,8 +1032,12 @@ article.container::before{
       border-radius: var(--radius-28);
     }
 
-    .search-result,.search-view:not(:focus-within) .search-result{
+    .search-result,
+    .search-view:not(:focus-within) .search-result{
       display: none;
+    }
+    .search-view:focus-within .search-result.active{
+      display: block;
     }
 
     .search-view:has(.search-result.active)
