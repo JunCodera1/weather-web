@@ -30,7 +30,7 @@ export const url = {
     },
     /** 
      *
-     * @param {string} query Search query
+     * @param {string} query Search query e.g: "London", "New York", "
      *  
      */ 
     geo(query){
